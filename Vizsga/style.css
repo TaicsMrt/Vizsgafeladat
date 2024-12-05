@@ -1,0 +1,130 @@
+body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background: url('Pics/vietnam_war_ep4.jpg') no-repeat center center fixed;
+     background-size: cover;
+     color: black;
+   }
+   
+   header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: gray;
+     padding: 10px 20px;
+   }
+   
+   .linkek a {
+     margin-right: 15px;
+     color: white;
+     text-decoration: none;
+     font-size: 16px;
+   }
+   
+   .linkek a:hover {
+     text-decoration: underline;
+   }
+   
+   .regbel button {
+     background: none;
+     border: none;
+     color: white;
+     font-size: 16px;
+     margin-left: 15px;
+     cursor: pointer;
+     text-decoration: underline;
+   }
+   
+   .regbel button:hover {
+     color: white;
+   }
+   
+   .kontent {
+     display: flex;
+     justify-content: space-between;
+     padding: 20px;
+   }
+   
+   .introduction {
+     font-size: 18px;
+     background: rgba(230, 226, 226, 0.8);
+     padding: 15px;
+     border-radius: 10px;
+     flex: 1;
+   }
+   
+   .sidebar {
+     max-width: 25%;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+   }
+   
+   .sidebar button {
+     background-color: white;
+     border: 1px solid gainsboro;
+     padding: 10px;
+     cursor: pointer;
+     font-size: 16px;
+     border-radius: 5px;
+     text-align: left;
+     transition: background-color 0.3s;
+   }
+   
+   .sidebar button:hover {
+     background-color: gainsboro;
+   }
+   
+   .modal {
+     display: none;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.5);
+     justify-content: center;
+     align-items: center;
+   }
+   
+   .modal-content {
+     background: white;
+     padding: 20px;
+     border-radius: 10px;
+     width: 300px;
+     position: relative;
+   }
+   
+   .modal-content .close {
+     position: absolute;
+     top: 10px;
+     right: 10px;
+     font-size: 20px;
+     cursor: pointer;
+   }
+   
+   .modal-content form {
+     display: flex;
+     flex-direction: column;
+   }
+   
+   .modal-content form input {
+     margin-bottom: 10px;
+     padding: 8px;
+     font-size: 14px;
+   }
+   
+   .modal-content form button {
+     padding: 10px;
+     background-color: gray;
+     color: white;
+     border: none;
+     cursor: pointer;
+     font-size: 16px;
+     border-radius: 5px;
+   }
+   
+   .modal-content form button:hover {
+     background-color: gray;
+   }   
