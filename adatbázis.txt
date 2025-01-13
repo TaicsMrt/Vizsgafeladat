@@ -1,0 +1,3 @@
+Regiszráció tábla (felhasználónév, jelszó, jelszó megerősítése, e-mail)
+Bejelentkezés tábla (felhasználónév, jelszó, e-mail)
+Információk hozzáadása tábla (vélemények, értékelés, megváltoztatás(csak regisztrált fiókkal))
