@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Változó Háttér</title>
+    <style>
+        /* A teljes oldal stílusa */
+        body {
+            margin: 0;
+            height: 100vh;
+            background-size: cover;
+            animation: changeBackground 20s infinite;
+            transition: background-image 1s ease-in-out;
+        }
+
+        /* Az animáció a háttérkép változtatásához */
+        @keyframes changeBackground {
+            0% {
+                background-image: url('https://images2.alphacoders.com/136/thumb-1920-1366941.png');
+            }
+            50% {
+                background-image: url('https://wallup.net/wp-content/uploads/2019/09/85237-abstract-nba-basketball-boston-celtics-rajon-rondo.jpg');
+            }
+            80% {
+                background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Fi19ms31fV4Hh2g3jg6dFu_L7eVd3wRDjg&s');
+            }
+            100% {
+                background-image: url('https://images5.alphacoders.com/323/323995.jpg');
+            }
+        }
+
+        /* Szöveg stílus (opcionális) */
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 6em;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="">Üdvözöllek!</a> </h1>
+</body>
+</html>
