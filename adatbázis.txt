@@ -1,5 +1,0 @@
-Regiszráció tábla (felhasználónév, jelszó, e-mail)
-Bejelentkezés tábla (felhasználónév, jelszó, e-mail)
-Regisztrációs kérdések (kérdések)
-Események (kovetkezo mecssek)
-Jatekosk (Jatekos)
